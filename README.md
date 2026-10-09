@@ -38,7 +38,6 @@ Pure black pixels can reduce OLED light output on the **desktop background**. Th
    gnome-extensions prefs wallshift@genrichh93-ui.github.io
    ```
 
-**Upgrading from the WallShift preview:** the UUID remains exactly `wallshift@genrichh93-ui.github.io`, so this updates the already installed preview without resetting its settings. The display name changes to WallpaperShift.
 
 ## Usage
 
