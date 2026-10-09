@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.wallshift" path="/org/gnome/shell/extensions/wallshift/">
+    <key name="source-mode" type="s"><default>'color'</default><summary>Wallpaper source: color, pair, folder</summary></key>
+    <key name="solid-color" type="s"><default>'#000000'</default><summary>Solid background color</summary></key>
+    <key name="wallpaper-a" type="s"><default>''</default><summary>First wallpaper file URI</summary></key>
+    <key name="wallpaper-b" type="s"><default>''</default><summary>Second wallpaper file URI</summary></key>
+    <key name="wallpaper-folder" type="s"><default>''</default><summary>Folder file URI</summary></key>
+    <key name="folder-random" type="b"><default>false</default><summary>Pick random image instead of next</summary></key>
+    <key name="folder-index" type="i"><default>0</default><summary>Next sequential folder image index</summary></key>
+    <key name="folder-last-uri" type="s"><default>''</default><summary>Last chosen folder file URI</summary></key>
+    <key name="double-click-enabled" type="b"><default>true</default><summary>Enable double-click on desktop</summary></key>
+    <key name="toggle-shortcut" type="as"><default>['&lt;Super&gt;&lt;Shift&gt;w']</default><summary>Switch configured wallpapers</summary></key>
+    <key name="black-shortcut" type="as"><default>['&lt;Super&gt;&lt;Shift&gt;b']</default><summary>Override desktop with black or restore</summary></key>
+    <key name="automation-mode" type="s"><default>'off'</default><summary>off, interval, or clock</summary></key>
+    <key name="interval-minutes" type="i"><default>30</default><summary>Minutes between automatic switches</summary></key>
+    <key name="day-time" type="s"><default>'07:00'</default><summary>Start of daytime</summary></key>
+    <key name="night-time" type="s"><default>'20:00'</default><summary>Start of nighttime</summary></key>
+    <key name="active-mode" type="s"><default>'none'</default><summary>Current applied source including black</summary></key>
+    <key name="previous-before-black" type="s"><default>'none'</default><summary>Previous mode to restore after OLED black</summary></key>
+    <key name="base-background" type="s"><default>''</default><summary>Backup of desktop wallpaper settings for safe restore</summary></key>
+  </schema>
+</schemalist>

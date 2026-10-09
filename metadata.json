@@ -1,0 +1,10 @@
+{
+  "uuid": "wallshift@genrichh93-ui.github.io",
+  "name": "WallpaperShift",
+  "description": "Switch wallpapers by double-click or shortcut: solid color, two images or a folder. Optional interval and day/night scheduling with an OLED black override.",
+  "shell-version": [
+    "51"
+  ],
+  "url": "https://github.com/genrichh93-ui/WallpaperShift",
+  "settings-schema": "org.gnome.shell.extensions.wallshift"
+}
