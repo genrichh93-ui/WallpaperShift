@@ -23,7 +23,6 @@ from zipfile import ZipFile, ZIP_DEFLATED
 outfile = Path('dist/wallshift@genrichh93-ui.github.io.zip')
 files = [Path(name) for name in ('metadata.json', 'extension.js', 'prefs.js', 'LICENSE')]
 files += sorted(Path('schemas').glob('*.gschema.xml'))
-files += [Path('schemas/gschemas.compiled')]
 with ZipFile(outfile, 'w', ZIP_DEFLATED) as archive:
     for file in files:
         archive.write(file, file.as_posix())
